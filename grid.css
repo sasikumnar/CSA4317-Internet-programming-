@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* 3 columns, each 100px wide */
+  grid-template-rows: repeat(3, 100px);   /* 3 rows, each 100px tall */
+  gap: 10px; /* Space between grid items */
+}
+
+.item-a {
+  background-color: lightblue;
+}
+
+.item-b {
+  background-color: lightcoral;
+}
+
+.item-c {
+  background-color: lightgreen;
+}
+
+.item-highlighted {
+  grid-column: span 2; /* Span 2 columns */
+  grid-row: span 2;    /* Span 2 rows */
+  background-color: yellow; /* Highlight */
+}
+
+.item-e {
+  background-color: lightpink;
+}
